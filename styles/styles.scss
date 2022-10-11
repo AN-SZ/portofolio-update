@@ -100,6 +100,11 @@ section{
     transform: translateY(0) scale(1);
 }
 
+.sec6{
+    display: none;
+    transform: translateY(0) scale(1);
+}
+
 .active{
     display: block;
     animation: scaleAnim 1s ease-in-out;
@@ -564,6 +569,102 @@ section{
         }
     }
 }
+
+// Tech section
+.technology{
+    margin: 0;
+    padding: 0;
+    font-size: 21px;
+    font-family: Arial;
+    .title{
+      font-size: 70px;
+      margin-left: 2rem;
+      padding-top: 0rem;
+      color: #798af9;
+      margin-bottom: 0px;
+    }
+     .title:hover{
+      color: chocolate;
+      cursor: pointer;
+     }
+    
+     .paragh-1{
+      font-size: 18px;
+      margin-left: 3rem;
+      margin-top: 1px;
+     }
+    
+     .paragh-2{
+      font-size: 18px;
+      width: 900px;
+      margin-left: 3rem;
+      margin-top: 1rem;
+    
+     }
+    
+     .kontakt-aufnahme{
+        font-size: 50px;
+        margin-left: 3rem;
+        padding-top: 2rem;
+        color: #798af9;
+        margin-bottom: 0px;
+      }
+    
+      .kontakt-aufnahme:hover{
+        color: chocolate;
+        cursor: pointer;
+       }
+    
+       .kontakt-p{
+        font-size: 18px;
+        width: 900px;
+        margin-left: 3rem;
+        margin-top: 1px;
+       }
+    
+       .planung-3{
+        font-size: 50px;
+        margin-left: 3rem;
+        padding-top: 2rem;
+        color: #798af9;
+        margin-bottom: 0px;
+       }
+       .planung-3:hover{
+        color: chocolate;
+        cursor: pointer;
+       }
+    
+       .planung-p{
+        font-size: 18px;
+        margin-left: 3rem;
+        width: 900px;
+        margin-top: 1px;
+       }
+    
+       .optimierung-3{
+        font-size: 50px;
+        margin-left: 3rem;
+        padding-top: 2rem;
+        color: #798af9;
+        margin-bottom: 0px;
+       }
+       .optimierung-3:hover{
+          color: chocolate;
+          cursor: pointer;
+       }
+    
+       .optimierung-p{
+        font-size: 18px;
+        margin-left: 3rem;
+        width: 900px;
+        margin-top: 1px;
+       }
+    
+       .unorder-li{
+        margin-left: 4rem;
+        margin-top: 1rem;
+       }
+  }
 
 //contact section
 .contact-content-con{

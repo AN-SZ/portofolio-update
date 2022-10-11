@@ -97,6 +97,11 @@ section {
   transform: translateY(0) scale(1);
 }
 
+.sec6 {
+  display: none;
+  transform: translateY(0) scale(1);
+}
+
 .active {
   display: block;
   -webkit-animation: scaleAnim 1s ease-in-out;
@@ -544,7 +549,6 @@ section {
   margin-top: -7px;
   padding: 1.1rem;
   border-top: 8px solid var(--color-secondary);
-  color:rgba(190, 198, 23, 0.772);
 }
 .blogs .blog .blog-text h4 {
   font-size: 1.5rem;
@@ -559,7 +563,90 @@ section {
   color: var(--color-gray-2);
   line-height: 2rem;
   padding-bottom: 1rem;
-  color: whitesmoke;
+}
+
+.technology {
+  margin: 0;
+  padding: 0;
+  font-size: 21px;
+  font-family: Arial;
+}
+.technology .title {
+  font-size: 70px;
+  margin-left: 2rem;
+  padding-top: 0rem;
+  color: #798af9;
+  margin-bottom: 0px;
+}
+.technology .title:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+.technology .paragh-1 {
+  font-size: 18px;
+  margin-left: 3rem;
+  margin-top: 1px;
+}
+.technology .paragh-2 {
+  font-size: 18px;
+  width: 900px;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.technology .kontakt-aufnahme {
+  font-size: 50px;
+  margin-left: 3rem;
+  padding-top: 2rem;
+  color: #798af9;
+  margin-bottom: 0px;
+}
+.technology .kontakt-aufnahme:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+.technology .kontakt-p {
+  font-size: 18px;
+  width: 900px;
+  margin-left: 3rem;
+  margin-top: 1px;
+}
+.technology .planung-3 {
+  font-size: 50px;
+  margin-left: 3rem;
+  padding-top: 2rem;
+  color: #798af9;
+  margin-bottom: 0px;
+}
+.technology .planung-3:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+.technology .planung-p {
+  font-size: 18px;
+  margin-left: 3rem;
+  width: 900px;
+  margin-top: 1px;
+}
+.technology .optimierung-3 {
+  font-size: 50px;
+  margin-left: 3rem;
+  padding-top: 2rem;
+  color: #798af9;
+  margin-bottom: 0px;
+}
+.technology .optimierung-3:hover {
+  color: chocolate;
+  cursor: pointer;
+}
+.technology .optimierung-p {
+  font-size: 18px;
+  margin-left: 3rem;
+  width: 900px;
+  margin-top: 1px;
+}
+.technology .unorder-li {
+  margin-left: 4rem;
+  margin-top: 1rem;
 }
 
 .contact-content-con {
